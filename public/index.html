@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FashionCorner offers elegant women's clothing and exquisite jewellery. Shop sarees, dresses, bangles, and more online." />
+  <meta name="keywords" content="women's fashion, ethnic wear, jewellery, sarees, dresses, bangles, online shopping" />
+  <meta name="author" content="FashionCorner" />
+  <title>FashionCorner - Women’s Wear & Jewellery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <nav class="flex flex-wrap justify-between items-center px-6 py-4 shadow-md bg-gradient-to-r from-pink-100 to-yellow-100">
+    <a href="index.html" class="text-2xl font-bold text-pink-700">FashionCorner</a>
+    <button id="menu-toggle" class="md:hidden text-pink-700 focus:outline-none" aria-label="Open Menu">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+    <div id="nav-links" class="w-full md:w-auto md:flex space-y-2 md:space-y-0 md:space-x-4 text-sm font-medium mt-4 md:mt-0 hidden md:block">
+      <a href="clothes.html" class="block md:inline hover:text-pink-600">Clothes</a>
+      <a href="jewellery.html" class="block md:inline hover:text-pink-600">Jewellery</a>
+      <a href="about.html" class="block md:inline hover:text-pink-600">About</a>
+      <a href="contact.html" class="block md:inline hover:text-pink-600">Contact</a>
+    </div>
+    <script>
+      const menuToggle = document.getElementById('menu-toggle');
+      const navLinks = document.getElementById('nav-links');
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('hidden');
+      });
+    </script>
+  </nav>
+
+  <main class="p-6 space-y-20">
+    <section class="text-center">
+      <h1 class="text-5xl font-bold text-pink-700 mb-4">Welcome to FashionCorner</h1>
+      <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-6">Discover premium women's fashion and jewellery collections made to express elegance and beauty. Perfect for every occasion.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <a href="clothes.html" class="bg-pink-200 hover:bg-pink-300 transition p-6 rounded-xl shadow-lg">
+          <h2 class="text-2xl font-semibold mb-2">Shop Clothes</h2>
+          <p>Stylish sarees, kurtis, dresses, and more.</p>
+        </a>
+        <a href="jewellery.html" class="bg-yellow-100 hover:bg-yellow-200 transition p-6 rounded-xl shadow-lg">
+          <h2 class="text-2xl font-semibold mb-2">Explore Jewellery</h2>
+          <p>Elegant necklaces, bangles, earrings & more.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="bg-gradient-to-br from-pink-50 to-yellow-50 p-6 rounded-xl shadow-md">
+      <h2 class="text-3xl font-bold text-center mb-6">Featured Collections</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded shadow hover:shadow-xl transition">
+          <img src="https://i.imgur.com/TWhKZyB.jpg" alt="Festive Ethnic Wear" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold">Festive Ethnic Wear</h3>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:shadow-xl transition">
+          <img src="https://i.imgur.com/cXZLVN3.jpg" alt="Casual Chic" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold">Casual Chic</h3>
+        </div>
+        <div class="bg-white p-4 rounded shadow hover:shadow-xl transition">
+          <img src="https://i.imgur.com/gZAr7L1.jpg" alt="Statement Jewellery" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold">Statement Jewellery</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <h2 class="text-3xl font-bold mb-4">Why Shop With Us?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 rounded shadow bg-white hover:shadow-md transition">
+          <h3 class="font-semibold text-xl mb-2">Quality Materials</h3>
+          <p class="text-gray-600">Only the best fabrics and metals for lasting elegance.</p>
+        </div>
+        <div class="p-6 rounded shadow bg-white hover:shadow-md transition">
+          <h3 class="font-semibold text-xl mb-2">Unique Designs</h3>
+          <p class="text-gray-600">Our styles are curated to stand out in every crowd.</p>
+        </div>
+        <div class="p-6 rounded shadow bg-white hover:shadow-md transition">
+          <h3 class="font-semibold text-xl mb-2">Affordable Luxury</h3>
+          <p class="text-gray-600">Premium fashion at prices you'll love.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-yellow-50 p-6 rounded-xl text-center">
+      <h2 class="text-3xl font-bold mb-2">Stay in Style</h2>
+      <p class="mb-4">Sign up for the latest fashion drops, offers & trends.</p>
+      <form class="flex justify-center gap-2 max-w-lg mx-auto">
+        <input type="email" placeholder="Enter your email" class="p-3 border rounded w-full">
+        <button type="submit" class="bg-pink-600 text-white px-6 py-3 rounded hover:bg-pink-700">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="mt-20 text-center p-6 bg-gradient-to-r from-pink-100 to-yellow-100 text-sm">
+    <p>© 2025 FashionCorner. All rights reserved.</p>
+    <p><a href="terms.html" class="text-pink-700 hover:underline">Terms</a> | <a href="about.html" class="text-pink-700 hover:underline">About</a></p>
+  </footer>
+</body>
+</html>
