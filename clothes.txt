@@ -1,0 +1,12 @@
+id: "cl1"
+name: "Elegant Red Saree"
+price: "1111"
+img: {"link1","link2"}
+description: "description"
+---
+id: "cl2"
+name: "Floral Summer Dress"
+price: "1,299"
+img: "images/clothes/summer-dress.jpg"
+description: "A breezy floral dress made of cotton. Ideal for daytime outings and brunches."
+---

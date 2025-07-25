@@ -1,0 +1,18 @@
+id: "cl1"
+name: "necklace1"
+price: "1,999"
+img: "images/clothes/red-saree.jpg"
+description: "A traditional silk saree with golden zari work. Perfect for weddings and festive occasions."
+---
+id: "cl2"
+name: "ring1"
+price: "1,299"
+img: "images/clothes/summer-dress.jpg"
+description: "A breezy floral dress made of cotton. Ideal for daytime outings and brunches."
+---
+id: "cl3"
+name: "bangle"
+price: "2,499"
+img: "images/clothes/black-gown.jpg"
+description: "Elegant floor-length gown with sequins and lace detailing. Shine bright at any party!"
+---

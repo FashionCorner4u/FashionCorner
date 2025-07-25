@@ -1,0 +1,25 @@
+{
+  "name": "fashioncorner-backend",
+  "version": "1.0.0",
+  "description": "Backend server for FashionCorner website hosted on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "fashion",
+    "clothes",
+    "jewellery",
+    "telegram",
+    "express"
+  ],
+  "author": "FashionCorner",
+  "license": "MIT"
+}

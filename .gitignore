@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables (if used locally)
+.env
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+*.swp
