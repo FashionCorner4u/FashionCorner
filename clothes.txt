@@ -1,7 +1,7 @@
 id: "cl1"
 name: "Elegant Red Saree"
 price: "1111"
-img: {"link1","link2"}
+img: ["https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQvTqT1hYCfpuSARxN_Pyk_F017k-qHFpv_9OQhJLsGeD4keLguWZ1lgF9BAy7FVWYEEIdaK7lR1HRLH9T7-nJLIFb8oPqqXSfjk1JPUE7C","link2"]
 description: "description"
 ---
 id: "cl2"
